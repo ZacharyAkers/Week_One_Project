@@ -1,0 +1,166 @@
+body {
+    background-color: #F2F1E8;
+    margin: 0px;
+}
+
+.nav-row {
+    display: flex;
+    background-color: #FFFFFF;
+    justify-content: center;
+    padding: 20px 0px;
+    margin: 0px;
+}
+
+.logo {
+    background-image: url("images/optimized/bent-creek-logo.png");
+    height: 58px;
+    width: 55px;
+    background-size: cover;
+    z-index: 1;
+    float: left;
+    background-color: #FFFFFF;
+}
+
+.nav-item {
+    list-style: none;
+}
+
+.nav-item a {
+    color: #2B2F26;
+    padding: 0px 15px;
+    text-transform: uppercase;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-heading {
+    font-size: 4em;
+}
+
+.sub-heading {
+    font-size: 2.5em;
+    margin-top: -30px;
+    color: #131511;
+    font-weight: lighter;
+}
+
+.image-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.img-card {
+    list-style: none;
+}
+
+h3 {
+    background-color: #2B2F26;
+    color: #F2F1E8;
+    z-index: 2;
+    margin: 3px 18em 3px 1px;
+}
+
+#product_One {
+    background-image: url("images/optimized/product-1.jpg");
+    height: 370px;
+    width: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    order: 1;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+#product_Two {
+    background-image: url("images/optimized/product-2.jpg");
+    height: 370px;
+    width: 240px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    order: 2;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+#product_Three {
+    background-image: url("images/optimized/product-3.jpg");
+    height: 370px;
+    width: 240px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    order: 3;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+#product_Four {
+    background-image: url("images/optimized/product-4.jpg");
+    height: 175px;
+    width: 175px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    order: 4;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+#product_Five {
+    background-image: url("images/optimized/product-5.jpg");
+    height: 175px;
+    width: 175px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    order: 5;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+#product_Six {
+    background-image: url("images/optimized/product-6.jpg");
+    height: 175px;
+    width: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    order: 6;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+#product_Seven {
+    background-image: url("images/optimized/product-7.jpg");
+    height: 175px;
+    width: 175px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    order: 7;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+span {
+    background-color: #2B2F26;
+    color: #F2F1E8;
+    display: flex;
+    padding: 20px;
+}

@@ -1,0 +1,65 @@
+body {
+    background-color: #F2F1E8;
+    margin: 0px;
+}
+
+.nav-row {
+    display: flex;
+    background-color: #FFFFFF;
+    justify-content: center;
+    padding: 20px 0px;
+    margin: 0px;
+}
+
+.logo {
+    background-image: url("../images/optimized/bent-creek-logo.png");
+    height: 58px;
+    width: 55px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 1;
+    float: left;
+    background-color: #FFFFFF;
+}
+
+.nav-item {
+    list-style: none;
+}
+
+.nav-item a {
+    color: #2B2F26;
+    padding: 0px 15px;
+    text-transform: uppercase;
+}
+
+.background-img {
+    background-image: url("../images/optimized/background-2.jpg");
+    width: 100em;
+    height: 35em;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: white;
+    width: 35em;
+    height: 15em;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.submitbtn {
+    display: flex;
+    justify-content: center;
+}
+
+.signupbtn {
+    background-color: #968772;
+    color: #F2F1E8;
+    padding: 10px 4em;;
+    margin-top: 5px;
+}

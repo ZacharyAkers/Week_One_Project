@@ -1,0 +1,143 @@
+body {
+    background-color: #F2F1E8;
+    margin: auto;
+}
+
+.nav-row {
+    display: flex;
+    background-color: #FFFFFF;
+    justify-content: center;
+    padding: 20px 0px;
+    margin: 0px;
+}
+
+.logo {
+    background-image: url("../images/optimized/bent-creek-logo.png");
+    height: 58px;
+    width: 55px;
+    background-size: cover;
+    z-index: 1;
+    float: left;
+    background-color: #FFFFFF;
+}
+
+.nav-item {
+    list-style: none;
+}
+
+.nav-item a {
+    color: #2B2F26;
+    padding: 0px 15px;
+    text-transform: uppercase;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 0em 15em;
+    color: #2B2F26;
+}
+
+blockquote {
+  border-left: 1px solid gray;
+  font-style: italic;
+  margin: 0 0 0 1px;
+  padding-left: 28px; }
+
+
+.Facilities {
+    color: #2B2F26;
+}
+
+.main-heading {
+    font-size: 4em;
+    margin: 12px 0px 12px 2em;
+}
+
+.About-birdhouse {
+    background-image: url("../images/optimized/birdhouse.jpg");
+    height: 60px;
+    width: 70px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+}
+
+.Container_One > blockquote {
+    border-left: 3px solid black;
+}
+
+.facilities-heading {
+    font-size: 1.3em;
+    font-weight: lighter;
+}
+
+.facilities-heading p {
+    float: left;
+}
+
+.header-image {
+    background-image: url("../images/optimized/background-3.jpg");
+    height: 400px;
+    width: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px -15em;
+    padding-right: 42em;
+    float: right;
+}
+
+.Container_One p {
+    float: right;
+}
+
+.header-image {
+    background-image: url("../images/optimized/background-3.jpg");
+    height: 400px;
+    width: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px -15em;
+    padding-right: 42em;
+}
+
+.image-heading {
+    display: flex;
+    color: #F2F1E8;
+    justify-content: center;
+    padding-top: 3em;
+    padding-left: 12em;
+    font-size: 2.5em;
+}
+
+.img-2 {
+    background-image: url("../images/optimized/background-1.jpg");
+    height: 100px;
+    width: 110px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: right;
+}
+
+.table-heading {
+    font-weight: lighter;
+}
+
+th {
+    border: 1px solid black;
+}
+
+td {
+    border: 1px solid black;
+}
+
+#yellow-t {
+    background-color: #968772;
+}
+
+span {
+    background-color: #2B2F26;
+    color: #F2F1E8;
+    display: flex;
+    padding: 20px;
+}

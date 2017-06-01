@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bent Creek Ceramics - Newsletter</title>
+        <link href="newsletter.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="logo"></div>
+        <nav>
+            <ul class="nav-row">
+                <li class="nav-item">
+                    <a href="../index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="../about/about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="../newsletter/newsletter.html">Newsletter</a>
+                </li>
+            </ul>
+        </nav>
+        <form class="background-img" action="/action_page.php">
+            <div class="container">
+                <h2>Sign Up for Our Weekly Newsletter</h2>
+                <h3>Stay up to date with events, activities, news and specials.</h3>
+                <label><b>Name</b></label>
+                <input type="text" placeholder="Enter Name" name="name" required>
+
+                <label><b>Email</b></label>
+                <input type="text" placeholder="Enter Email" name="email" required>
+                <div class="submitbtn">
+                    <button type="submit" class="signupbtn">Submit</button>
+                </div>
+            </div>
+        </form>
+        <script type="text/javascript">
+  var nameInput = document.getElementById('nameInput');
+  var emailInput = document.getElementById('emailInput');
+  var signupButton = document.getElementById('signupButton');
+  signupButton.addEventListener('click', function(e) {
+    var nameVal = nameInput.value;
+    var emailVal = emailInput.value;
+    if (nameVal && emailVal) {
+      alert('Thanks for signing up, ' + nameVal + '. Newsletters will be sent to ' + emailVal);
+      nameInput.value = "";
+      emailInput.value = "";
+    } else {
+      alert('We would love for you to sign up, please provide both your name and email address.');
+    }
+  });
+        </script>
+    </body>
+</html>
